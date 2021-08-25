@@ -46,8 +46,8 @@ https://myaccount.google.com/security
 ### If you don't enable less secure app access then password reset option would'nt work
 
 ### 6: Open xampp sever, create database, database name should be aims. (If you want to change database name then navigate to aims/settings.py and find this code
+`
 
-{
 DATABASES = {
 'default': { # 'ENGINE': 'django.db.backends.sqlite3', # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 'ENGINE':'django.db.backends.mysql',
@@ -59,6 +59,7 @@ DATABASES = {
 
     }
 }
+`
 
 ### Change aims to whatever you want)
 
