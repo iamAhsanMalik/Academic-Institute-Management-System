@@ -1,0 +1,773 @@
+/* Extra small devices - xs (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
+
+/* Navigation Styles Starts */
+
+	#nav {
+		padding-bottom: 10px;
+	}
+		#nav .navbar-brand {
+			padding-top: 15px;
+			font-size: 24px;
+		}
+			#nav .navbar-brand .fa {
+				margin-right: 3px;
+				font-size: 30px;
+			} 
+		#nav .navbar-toggler {
+			padding-top: 20px;
+		}
+		#nav .nav {
+			margin-top: 0;
+		}
+			#nav .navbar-collapse {
+				padding-top: 10px;	
+				padding-bottom: 20px;
+				border-top: 1px solid #e7e7e7;
+			}
+
+/* Welcome Section Styles Starts */
+
+	.welcome-area.about {
+		background: none !important;
+	}	
+
+/* Main Banner Styles Starts */
+
+	.main-banner h2 {
+		display: none;
+	}
+
+/* About Featured Section Starts */
+
+	.about-featured .btn-transparent {
+		margin-top: 20px;
+		padding: 10px 20px;
+		font-size: 16px;
+	}
+		.about-featured .btn-transparent .fa {
+			margin-left: 10px;
+		}
+
+/* Doctors Bio Boxes Styles Starts */
+
+	ul#doctors-grid.grid > li > .bio-box {
+		min-height: 465px;
+		height: auto !important;
+		height: 465px;
+	}
+		
+		.doctors-grid .bio-box .profile-img .overlay ul.sm-links {
+			margin-top: 24%;
+		}
+
+/* Doctors Profile Block Styles Starts */
+
+	.card-profile {
+		margin-bottom: 50px;
+	}
+		.card-profile > .card-footer .btn {
+			margin-top: 15px;
+		}		
+
+/* Latest News Carousel Starts */
+
+	.news-carousel .news-post-box {
+		margin-top: 40px;
+	}
+	.news-carousel .carousel-control-prev, 
+	.news-carousel .carousel-control-next {
+		top: -7px;
+	}
+	.news-carousel .carousel-control-prev {
+		left: 0;
+		right: auto;
+	}
+
+/* Accordions Styles Starts */
+
+	#accordion .card-header {
+		padding: 10px;
+	}
+	#accordion .card-title a, 
+	#accordion .card-title span.fa.float-right {
+		padding: 0;
+	}
+	#accordion .card-title, 
+	#accordion .card-title .fa {
+		font-size: 16px;
+	}
+	#accordion .card-title .icon {
+		display: none;
+	}
+	#accordion .card-body {
+		padding: 15px;
+	}
+
+/* Book Appointment Box Styles Starts */
+
+	.book-appointment-box {
+		margin-top: 20px;
+		padding: 20px 15px;
+	}
+	.book-appointment-box h3 {
+		margin-top: 15px;		
+		font-size: 26px;
+	}
+	.book-appointment-box h4 {
+		font-size: 22px;
+	}
+	.book-appointment-box .btn-main {
+		margin-top: 15px;
+		padding: 8px 14px;
+		font-size: 15px;
+	}
+	
+/* Price Range Slider Styles Starts */
+
+	#price-range.slider.slider-horizontal {
+		width: 90%;
+		margin-left: 15px;
+	}
+
+/* Product Section Styles Starts */
+
+	.products-section-tabs .nav-tabs {
+		margin-top: 0;
+	}
+
+/* Tabs Styles Starts */	
+
+	.tabs-wrap .nav-tabs > .nav-item {
+		display: block !important;
+		width: 100%;
+	}	
+	.tabs-wrap .nav-tabs {
+		padding-bottom: 10px;
+		border-bottom: 1px solid #cecece;
+	}
+	.tabs-wrap .nav-tabs > .nav-link {
+		padding: 0 10px 10px;
+	}
+	.tabs-wrap .nav .nav-item h5 {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 16px;
+	}
+	.tabs-wrap-2 .nav-tabs > .nav-item, 
+	.tabs-wrap-2 .nav-tabs > .nav-item:last-of-type {
+		width: 100%;
+	}
+	.tabs-wrap-2 .nav-tabs > .nav-item, 
+	.tabs-wrap-2 .nav-tabs > .nav-link {
+		display: block;
+		float: none !important;
+	}
+	.tabs-wrap-2 .nav-tabs > .nav-link {
+		border: 1px solid #e2e2e2;
+	}
+	.tabs-wrap-2 .nav-tabs > .nav-link:after {
+		display: none;
+	}
+
+/* Contact Info Section Styles Starts */
+
+	.contact-info-box .info-box {
+		padding: 50px 30px 30px;
+	}
+	.contact-info-box .info-box h3 {
+		font-size: 32px;
+	}
+	.contact-info-box .info-box h5 {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.contact-info-box .info-box h4 {
+		font-size: 20px;
+	}
+
+/* Products Box Styles Starts */
+
+	.product-col-img .overlay ul {
+		margin-top: 20%;
+	}	
+	
+/* Footer Top Bar Styles Starts */
+
+	.footer-top-bar .float-left, 
+	.footer-top-bar .float-right {
+		float: none !important;
+	}
+	.footer-top-bar h3 {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}	
+
+/* Footer Styles Starts */	
+
+	.footer-area .col-sm-12 h4 {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}	
+	.footer-area .col-sm-12:first-of-type h4 {
+		margin-top: 0;
+	}	
+		.footer-area .tweets-list {	
+			margin-left: 0;
+		}
+			.footer-area .tweets-list li {
+				margin-top: 0;
+				margin-bottom: 0;
+			}	
+
+/* Generic Styles Starts */
+
+	.d-xs-block {
+		display: block !important;
+	}
+	.d-xs-none {
+		display: none;
+	}
+	.img-center-xs {
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+	.text-xs-left   { text-align: left;   }
+	.text-xs-center { text-align: center; }
+	.text-xs-right  { text-align: right;  }	
+
+/* Main Slider Starts */
+  .main-slider h1 {
+	font-size: 32px !important;
+	line-height: 38px !important;
+  }	
+
+}
+
+/* Small devices - sm (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+
+/* Navigation Styles Starts */
+	.stricky.stricky-fixed {
+	    position: relative !important;
+	}
+
+	#nav {
+		padding-bottom: 10px;
+	}
+		#nav .navbar-brand, 
+		#nav .navbar-toggler {
+			padding-top: 20px;
+		}
+		#nav .nav {
+			margin-top: 0;
+		}
+			#nav .navbar-collapse {
+				padding-top: 10px;	
+				padding-bottom: 20px;
+				border-top: 1px solid #e7e7e7;
+			}
+
+/* Welcome Section Styles Starts */
+
+	.welcome-area.about {
+		background: none !important;
+	}	
+
+/* Doctors Bio Boxes Styles Starts */
+
+	ul#doctors-grid.grid > li > .bio-box {
+		min-height: 471px;
+		height: auto !important;
+		height: 471px;
+	}
+
+
+/* Doctors Profile Block Styles Starts */
+
+	.card-profile {
+		margin-bottom: 50px;
+	}
+		.card-profile > .card-footer .btn {
+			margin-top: 15px;
+		}	
+	
+/* Latest News Carousel Starts */
+
+	.news-carousel .news-post-box {
+		margin-top: 20px;
+	}
+
+/* Book Appointment Box Styles Starts */
+
+	.book-appointment-box {
+		margin-top: 30px;
+	}	
+
+/* Product Section Styles Starts */
+
+	.products-section-tabs .nav-tabs {
+		margin-top: 5px;
+	}
+
+/* Tabs Styles Starts */	
+
+	.tabs-wrap .nav-tabs {
+		padding-bottom: 10px;
+		border-bottom: 1px solid #cecece;
+	}
+	.tabs-wrap .nav-tabs > .nav-link {
+		padding: 0 10px 10px;
+	}
+	.tabs-wrap .nav .nav-item h5 {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 16px;
+	}
+	.tabs-wrap-2 .nav-tabs > .nav-item, 
+	.tabs-wrap-2 .nav-tabs > .nav-item:last-of-type {
+		width: 100%;
+	}
+	.tabs-wrap-2 .nav-tabs > .nav-item, 
+	.tabs-wrap-2 .nav-tabs > .nav-link {
+		display: block;
+		float: none !important;
+	}
+	.tabs-wrap-2 .nav-tabs > .nav-link {
+		border: 1px solid #e2e2e2;
+	}
+	.tabs-wrap-2 .nav-tabs > .nav-link:after {
+		display: none;
+	}
+
+/* News Page Styles Starts */
+
+	.news-post {
+		margin-right: 0;
+	}
+
+/* Blog Author Bio Box Styles Starts */
+
+	.blog-author-bio {
+		margin-right: 0;
+	}	
+
+/* Comments Area Styles Starts */
+
+	.comments-area .media {
+		margin-right: 0;
+	}
+
+/* Products Box Styles Starts */
+
+	.product-col-img .overlay ul {
+		margin-top: 10%;
+	}
+
+/* Pagination Styles Starts */
+
+	.pagination-wrap {
+		margin-right: 0;
+	}
+
+/* Contact Form Styles Starts */
+
+	#main-contact-form {
+		margin-bottom: 50px;
+	}	
+
+/* Footer Top Bar Styles Starts */
+
+	.footer-top-bar .float-left, 
+	.footer-top-bar .float-right {
+		float: none !important;
+	}
+	.footer-top-bar h3 {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}	
+
+/* Footer Styles Starts */	
+
+	.footer-area .col-sm-12 h4 {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}	
+	.footer-area .col-sm-12:first-of-type h4 {
+		margin-top: 0;
+	}	
+		.footer-area .tweets-list {	
+			margin-left: 0;
+		}
+			.footer-area .tweets-list li {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+/* Generic Styles Starts */
+
+	.img-center-sm {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/* Medium devices - md (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+/* Heading Styles Starts */
+
+	.side-heading1.top {
+		margin-top: 0;
+	}		
+
+/* Top Bar Styles Starts */
+
+	.top-bar li {
+		padding-right: 0;
+		border: none;
+	}	
+
+/* Navigation Styles Starts */
+	
+	#nav .navbar-brand, 
+	#nav .navbar-toggler {
+		padding-top: 20px;
+	}
+	#nav .nav {
+		margin-top: 0;
+	}
+		#nav .navbar-collapse {
+			padding-top: 10px;	
+			padding-bottom: 20px;
+			border-top: 1px solid #e7e7e7;
+		}
+
+/* Welcome Section Styles Starts */
+
+	.welcome-area.about {
+		background: none !important;
+	}
+
+/* Doctors Bio Boxes Styles Starts */
+
+	ul#doctors-grid.grid > li > .bio-box {
+		min-height: 498px;
+		height: auto !important;
+		height: 498px;
+	}
+
+/* Doctors Profile Block Styles Starts */
+
+	.card-profile > .card-footer .btn {
+		margin-top: 15px;
+	}	
+
+/* Book Appointment Box Styles Starts */	
+
+	.book-appointment-box {
+		margin-top: 30px;
+	}
+		.book-appointment-box .btn-main {
+			margin-top: 20px;
+		}
+	
+/* Tabs Styles Starts */	
+
+	.tabs-wrap .nav-tabs {
+		padding-bottom: 10px;
+		border-bottom: 1px solid #cecece;
+	}
+	.tabs-wrap .nav-tabs > .nav-link {
+		padding: 0 7px;
+	}
+	.tabs-wrap .nav .nav-item h5 {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 16px;
+	}
+	.tabs-wrap-2 .nav-tabs > .nav-link {
+		padding: 10px 5px;
+		font-size: 14px;
+	}
+
+/* News Page Styles Starts */
+
+	.news-post {
+		margin-right: 0;
+	}
+
+/* Blog Author Bio Box Styles Starts */
+
+	.blog-author-bio {
+		margin-right: 0;
+	}	
+
+/* Comments Area Styles Starts */
+
+	.comments-area .media {
+		margin-right: 0;
+	}
+
+/* Comments Form Styles Starts */
+
+	.comment-form {
+		margin-bottom: 50px;
+	}	
+
+/* Pagination Styles Starts */
+
+	.pagination-wrap {
+		margin-right: 0;
+	}
+
+/* Footer Top Bar Styles Starts */
+
+	.footer-top-bar .float-left, 
+	.footer-top-bar .float-right {
+		float: none !important;
+	}
+	.footer-top-bar h3 {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+/* Footer Styles Starts */	
+
+	.footer-area .newsletter-block {
+		margin-top: 40px;
+	}	
+	
+/* Generic Styles Starts */
+
+	.img-center-md {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/* Main Slider Starts */
+@media (max-width: 991px) {
+  .main-slider h1 {
+	font-size: 40px !important;
+	line-height: 45px !important;
+  }
+  .main-slider .link-btn .btn  {
+	padding: 10px 20px;
+	margin-top: 5px;
+  }
+  .main-slider .wrap-caption{
+	width: 100% !important;
+	margin-left: 0 !important;
+  }	
+}
+
+/* Large devices - lg (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+/* Heading Styles Starts */
+
+	.side-heading1.top {
+		margin-top: 0;
+	}	
+
+/* Navigation Styles Starts */
+
+	#nav .container-fluid {
+		padding-right: 0;
+	}
+		#nav .navbar-collapse {
+			padding-right: 0;
+		}
+			#nav.navbar-default .navbar-nav > li > a { 
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			#nav .dropdown:hover .dropdown-menu {
+				display: block;
+			}	
+
+/* Welcome Section Styles Starts */
+
+	.welcome-area p:last-of-type {
+		margin-bottom: 0;
+	}
+
+/* Doctors Pages Styles Starts */
+
+	ul#doctors-grid.grid > li > .bio-box {
+		min-height: 466px;
+		height: auto !important;
+		height: 466px;
+	}
+	
+
+/* Doctors Profile Block Styles Starts */
+
+	.card-profile > .card-footer {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+		.card-profile > .card-footer ul.sm-links li {
+			margin-left: 1px;
+		}
+		.card-profile > .card-footer .btn {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	
+/* Accordions Styles Starts */
+
+	#accordion .card-title, 
+	#accordion .card-title .fa {
+		font-size: 16px;
+	}	
+
+/* Book Appointment Box Styles Starts */
+
+	.book-appointment-box .box-img {
+		right: 5px;
+	}
+	.book-appointment-box h3 {
+		font-size: 32px;
+	}
+	.book-appointment-box h4 {
+		font-size: 20px;
+	}
+	.book-appointment-box .btn-main {
+		margin-top: 25px;
+		padding: 8px 16px;
+	}
+
+/* Tabs Styles Starts */	
+
+	.tabs-wrap .nav-tabs > .nav-link {
+		padding: 0 10px 10px;
+	}
+		.tabs-wrap .nav .nav-item .icon {
+			margin: 0 auto;				
+			width: 110px;
+			height: 110px;
+			line-height: 110px;
+			background-color: #009bdb;
+		}
+	.tabs-wrap-2 .nav-tabs > .nav-link {
+		padding: 10px 18px;
+		font-size: 16px;
+	}
+		
+/* List Styles Starts */
+
+	.progress-bar-list h6 {
+		line-height: 35px;		
+		text-align: right;
+	}
+	.progress-bar-list li .progress .progress-bar {
+		padding-right: 20px;
+		text-align: right;
+	}
+		.progress-bar-list > li.row > .col-lg-8 {
+			border-left: 1px solid #e0e0e0;
+		}	
+		.progress-bar-list > li.row > .col-lg-4, 
+		.progress-bar-list > li.row > .col-lg-8 {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+		.progress-bar-list > li:first-of-type.row > .col-lg-4, 
+		.progress-bar-list > li:first-of-type.row > .col-lg-8 {
+			padding-top: 10px;
+		}
+		.progress-bar-list > li:last-of-type.row > .col-lg-4, 
+		.progress-bar-list > li:last-of-type.row > .col-lg-8 {
+			padding-bottom: 10px;
+		}
+	
+/* Contact Info Section Styles Starts */
+
+	.contact-info-box {
+		margin-top: 200px;
+	}
+		.contact-info-box .box-img {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+		}	
+
+/* Genric Styles Starts */	
+
+	.img-center-lg {
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+}
+
+/* Extra large devices - xl (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+/* Heading Styles Starts */
+
+	.side-heading1.top {
+		margin-top: 0;
+	}	
+
+/* Navigation Styles Starts */
+
+	#nav .container-fluid {
+		padding-right: 0;
+	}
+		#nav .navbar-collapse {
+			padding-right: 0;
+		}
+			#nav .dropdown:hover .dropdown-menu {
+				display: block;
+			}
+
+/* Welcome Section Styles Starts */
+
+	.welcome-area p:last-of-type {
+		margin-bottom: 0;
+	}
+		
+/* List Styles Starts */
+
+	.progress-bar-list h6 {
+		line-height: 35px;
+		text-align: right;
+	}
+	.progress-bar-list li .progress .progress-bar {
+		padding-right: 20px;
+		text-align: right;
+	}
+		.progress-bar-list > li.row > .col-lg-8 {
+			border-left: 1px solid #e0e0e0;
+		}
+		.progress-bar-list > li.row > .col-lg-4, 
+		.progress-bar-list > li.row > .col-lg-8 {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+		.progress-bar-list > li:first-of-type.row > .col-lg-4, 
+		.progress-bar-list > li:first-of-type.row > .col-lg-8 {
+			padding-top: 10px;
+		}
+		.progress-bar-list > li:last-of-type.row > .col-lg-4, 
+		.progress-bar-list > li:last-of-type.row > .col-lg-8 {
+			padding-bottom: 10px;
+		}	
+	
+/* Contact Info Section Styles Starts */
+
+	.contact-info-box {
+		margin-top: 240px;
+	}
+		.contact-info-box .box-img {
+			position: absolute;
+			right: 40px;
+			bottom: 0;
+		}	
+
+}

@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- HTML 5 Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="AIMS - Home Page">
+    <meta name="description" content="AIMS - Academic School Management System">
+    <meta name="author" content="Ahsan Joyia">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{% static 'frontend-assets/img/fav_icon1.png' %}">
+
+    <!-- Page Title -->
+    <title>{{PageTitle}}</title>
+
+    <!-- Custom CSS Styles  -->
+    <link rel="stylesheet" href="{% static 'frontend-assets/font-awesome/css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend-assets/css/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend-assets/css/style_red.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend-assets/css/responsive.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend-assets/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend-assets/css/select2.min.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend-assets/css/bootstrap-datepicker.standalone.css' %}">
+    
+    
+
+
+    <script src="{% static 'frontend-assets/js/jquery.min.js' %}"></script>
+</head>
+<body>
+{% block body %}
+
+{% endblock body %}
+    <a href="#" class="back-to-top"><i class="far fa-arrow-alt-circle-up"></i></a>
+    <!-- JS Files -->
+    <script src="{% static 'frontend-assets/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'frontend-assets/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'frontend-assets/js/jquery.shuffle.modernizr.min.js' %}"></script>
+    <script src="{% static 'frontend-assets/js/select2.full.min.js' %}"></script>
+    <script src="{% static 'frontend-assets/js/bootstrap-datepicker.min.js' %}"></script>
+    <script src="{% static 'frontend-assets/js/custom.js' %}"></script>
+    
+</body>
+
+</html>

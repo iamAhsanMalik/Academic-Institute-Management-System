@@ -1,0 +1,5 @@
+USER_EMAIL = 'type your email'
+EMAIL_PASSWORD = 'type your email password'
+SECRET_KEY = 'so*rai_2(lk7t(yh%de+_kp_c%*r_b9wkga%gyo5tl9_8_r!xx'
+CAPTCHA_SITE_KEY = 'type your captcha site key'
+CAPTCHA_SECRET_KEY = 'type your captcha secret key'
