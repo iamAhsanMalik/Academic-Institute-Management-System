@@ -22,30 +22,30 @@ MySQL - (Easy to replace with any other SQL or Sqlite Database)
 
 ## Installation Procedure:
 
-### 1: Clone and fork this repostory
+##### 1: Clone and fork this repostory
 
-### 2: Download and install python and any server like xampp or wampp
+##### 2: Download and install python and any server like xampp or wampp
 
-### 3: Add python path to environment variable
+##### 3: Add python path to environment variable
 
-### 4: Open project, go to terminal and run this command. pip install -r requirements.txt
+##### 4: Open project, go to terminal and run this command. pip install -r requirements.txt
 
-### 5: Now rename .envsample file to .env and your email, email password, captcha secret key and captcha site key.
+##### 5: Now rename .envsample file to .env and your email, email password, captcha secret key and captcha site key.
 
-#### Note: To create captcha secret key and secret site key follow this link
+##### Note: To create captcha secret key and secret site key follow this link
 
 https://www.google.com/recaptcha
 
-### Make sure that the email you are going to add allow less secure app enable.
+##### Make sure that the email you are going to add allow less secure app enable.
 
 To do this follow this link
 https://myaccount.google.com/security
 
-### If you don't provide captcha secret and site key then captcha on this project would't work
+##### If you don't provide captcha secret and site key then captcha on this project would't work
 
-### If you don't enable less secure app access then password reset option would'nt work
+##### If you don't enable less secure app access then password reset option would'nt work
 
-### 6: Open xampp sever, create database, database name should be aims. (If you want to change database name then navigate to aims/settings.py and find this code
+##### 6: Open xampp sever, create database, database name should be aims. (If you want to change database name then navigate to aims/settings.py and find this code
 
 
 ` DATABASES = { `
@@ -68,20 +68,20 @@ https://myaccount.google.com/security
 ` } `
 
 
-### Change aims to whatever you want)
+##### Change aims to whatever you want)
 
-### 7: Now open your terminal and type these commands one by one
+##### 7: Now open your terminal and type these commands one by one
 
 python manage.py makemigrations
 python manage.py migrate
 
-### 8: Now open your terminal and type python manage.py createsuperuser
+##### 8: Now open your terminal and type python manage.py createsuperuser
 
 It will ask for username, type your username.
 Then it will ask for email, type your email.
 Then it will ask for password, type your password
 
-### 9: Now open your terminal and type python manage.py runserver, you will see login page, just type the username and password you have created a minute ago
+##### 9: Now open your terminal and type python manage.py runserver, you will see login page, just type the username and password you have created a minute ago
 
 ## Author
 
