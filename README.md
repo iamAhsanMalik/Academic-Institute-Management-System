@@ -48,18 +48,25 @@ https://myaccount.google.com/security
 ### 6: Open xampp sever, create database, database name should be aims. (If you want to change database name then navigate to aims/settings.py and find this code
 
 
-`DATABASES = {`
-`'default': { # 'ENGINE': 'django.db.backends.sqlite3', # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),`
-`'ENGINE':'django.db.backends.mysql',`
-`'NAME':'aims',
-`'USER':'root',
-`'PASSWORD':'',
-`'HOST':'localhost',
+`DATABASES = {
+
+`'default': { # 'ENGINE': 'django.db.backends.sqlite3', # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+
+`'ENGINE':'django.db.backends.mysql',
+
+`'NAME':'aims'
+
+`'USER':'root'
+
+`'PASSWORD':''
+
+`'HOST':'localhost'
+
 `'PORT':'3306'
 
-    }
-}
-`
+`    }
+`}
+
 
 ### Change aims to whatever you want)
 
