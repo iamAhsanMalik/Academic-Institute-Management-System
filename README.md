@@ -1,4 +1,4 @@
-# eCommerce Store
+# Academic Institute Management System
 
 Buitl Using Python - Django
 
@@ -14,7 +14,11 @@ Python - Django
 
 MySQL - (Easy to replace with any other SQL or Sqlite Database)
 
-![proshop](https://github.com/AhsanJoyia/eCommerce-Store/blob/master/frontend/public/images/Proshop.jpeg?raw=true)
+![AIMS Login Page](https://github.com/AhsanJoyia/Academic-Institute-Management-System/blob/master/media/AIMS%20Login%20Page.jpeg?raw=true)
+![AIMS Reset Password Page](https://github.com/AhsanJoyia/Academic-Institute-Management-System/blob/master/media/AIMS%20Reset%20Password%20Page.jpeg?raw=true)
+![AIMS Admin Page](https://github.com/AhsanJoyia/Academic-Institute-Management-System/blob/master/media/AIMS%20Admin%20Page.jpeg?raw=true)
+![AIMS Staff Page](https://github.com/AhsanJoyia/Academic-Institute-Management-System/blob/master/media/AIMS%20Staff%20Page.jpeg?raw=true)
+![AIMS Student Page](https://github.com/AhsanJoyia/Academic-Institute-Management-System/blob/master/media/AIMS%20Student%20Page.jpeg?raw=true)
 
 ## Installation Procedure:
 
@@ -43,6 +47,7 @@ https://myaccount.google.com/security
 
 ### 6: Open xampp sever, create database, database name should be aims. (If you want to change database name then navigate to aims/settings.py and find this code
 
+{
 DATABASES = {
 'default': { # 'ENGINE': 'django.db.backends.sqlite3', # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 'ENGINE':'django.db.backends.mysql',
@@ -53,7 +58,6 @@ DATABASES = {
 'PORT':'3306'
 
     }
-
 }
 
 ### Change aims to whatever you want)
@@ -75,7 +79,7 @@ Then it will ask for password, type your password
 
 Malik Ahsan Joyia
 
-### Note: This Project is Completed. I have no plan to add new features to this it. It were a university project, so if you want to download documentation, Presentation, head over to the link below
+### Note: This Project is Completed. I have no plan to add new features. It were a university project, so if you want to download documentation, Presentation, head over to the links below
 
 #### Documentation
 
