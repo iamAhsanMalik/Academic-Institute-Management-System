@@ -89,6 +89,8 @@ Malik Ahsan Joyia
 
 ### Note: This Project is Completed. I have no plan to add new features. It were a university project, so if you want to download documentation, Presentation, head over to the links below
 
-#### Documentation
+#### Documentation & Presentation
+https://docs.google.com/document/d/13TwcRjZ_Ym7K2HVewCcSpE033b2Ihxxg/edit?usp=sharing&ouid=111349160399760081018&rtpof=true&sd=true
+https://drive.google.com/file/d/1zyyLXHDiAg5zOAzx46qla6TJYGRxpBQ_/view?usp=sharing
+https://docs.google.com/presentation/d/1WLWh3DomFx7aAjTgv3_3KyTCtPHc0zk0/edit?usp=sharing&ouid=111349160399760081018&rtpof=true&sd=true
 
-#### Presentation
